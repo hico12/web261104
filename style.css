@@ -1,0 +1,47 @@
+.top{display:flex;
+    justify-content:
+    space-between;
+    align-items:center;
+    }
+
+
+body{
+    background-color: pink;
+}
+.card{border-radius:12px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,0.3);background-color:#fff;margin:0 auto;}
+
+.info{padding:12px 16px;}
+
+.poster{width:100%;display:block;aspect-ratio:2/3;object-fit:cover;}
+
+.card{position:relative;}
+
+.badge{position:absolute;top:12px;right:12px;background-color:#ffc107;color:#222;padding:4px 10px; border-radius:999px;font-weight:bold;}
+
+.card{transition:transform 0.3s, box-shadow 0.3s;}
+
+.card:hover{transform:translateY(-8px);box-shadow:0 12px 32px rgba(255,193,7,0.6);}
+
+body { background: linear-gradient(135deg, #141e30, #243b55); min-height: 100vh; box-sizing: border-box; margin: 0; padding: 40px; font-family: "*Noto Sans KR*", sans-serif; }
+
+
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+    gap: 12px;
+}
+
+.top ul{
+    display: flex;
+    gap:20px;
+    list-style: none;
+    padding: 0;
+}
+
+.hero{
+    text-align: center;
+    padding: 40px 20px;
+    color:white;
+}
