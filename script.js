@@ -10,6 +10,12 @@ const ratings =  [7.2, 8.2, 8.2, 8.4, 7.6];
 
 const years = [2019, 2018, 2019, 2014, 2019];
 
+for (let index in titles) {
+    console.log(`영화 ${index}: ${titles[index]}`);
+}
+
+
+
 let sum = 0;
 
 for (let i = 0; i < ratings.length; i++) {
@@ -41,7 +47,7 @@ for (let i = 1; i < ratings.length; i++) {
 //console.log("최고:",titles[maxIndex], max);
 
 console.log("최고 : ",titles[maxIndex],max);
-console.log(`8점 이상 : $(count)편`);
+console.log(`8점 이상 : ${count}편`);
 
 for (let i = 0; i < 5; i++) {
     let label;
@@ -58,3 +64,6 @@ for (let i = 0; i < 5; i++) {
 }
 
 alert("내 영화 보드에는 영화 " + titles.length + "편이 있습니다.");
+
+
+
